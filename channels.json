@@ -8,12 +8,44 @@
   "epg": ""
  },
  {
+  "id": "ch123",
+  "name": "Первый канал (Европа)",
+  "group": "Федеральные",
+  "url": "https://streaming.thestream.cyou/live/210-req_offset_28000000-req_window_0-1k_v5.m3u8",
+  "logo": "https://iptvx.one/picons/pervy.png",
+  "epg": "pervy-kanal-eu"
+ },
+ {
   "id": "ch001",
   "name": "Россия 1",
   "group": "Федеральные",
   "url": "https://stream.smotrim.ru/hls2/russia_hd/playlist_6.m3u8",
   "logo": "https://uut-telecom.ru/wp-content/uploads/2021/12/rossiya-1-hd.png",
   "epg": "rossia1"
+ },
+ {
+  "id": "ch124",
+  "name": "НТВ",
+  "group": "Федеральные",
+  "url": "https://bl.rutube.ru/livestream/c37cd74192c6bc3d6cd6077c0c4fd686/index.m3u8?e=2077050299&s=HSWg81JrQ3OqmwuWkEIDAQ&scheme=https",
+  "logo": "https://iptvx.one/picons/ntv.png",
+  "epg": "ntv"
+ },
+ {
+  "id": "ch011",
+  "name": "ТНТ",
+  "group": "Федеральные",
+  "url": "https://bl.rutube.ru/livestream/546602986e6a424d74d594876ddb3f04/index.m3u8?s=K-z3nz49R1oGQ-5yPSd8pg&e=2082157024&scheme=https",
+  "logo": "https://iptvx.one/picons/tnt.png",
+  "epg": "tnt"
+ },
+ {
+  "id": "ch010",
+  "name": "СТС",
+  "group": "Федеральные",
+  "url": "http://flussonic.mkpnet.ru/tv-9cb92ea0862cd7b0/video.m3u8",
+  "logo": "https://iptvx.one/picons/sts.png",
+  "epg": "sts"
  },
  {
   "id": "ch002",
@@ -24,20 +56,20 @@
   "epg": "rossia-24"
  },
  {
-  "id": "ch003",
-  "name": "Россия К",
+  "id": "ch018",
+  "name": "Матч!",
   "group": "Федеральные",
-  "url": "https://flussonic.mkpnet.ru/tv-111deaa2142146ee/video.m3u8",
-  "logo": "https://iptvx.one/picons/kultura.png",
-  "epg": "kultura"
+  "url": "http://bl.video.matchtv.ru/media/playlist/free_d46d0cf1712c0542ec7fd4f0808f600a_hd/17_89756005/1080/e6bef86de8a133cd7b27deb040758a00/4796141934.m3u8",
+  "logo": "https://iptvx.one/picons/match-tv.png",
+  "epg": "match-tv"
  },
  {
-  "id": "ch004",
-  "name": "ОТР",
+  "id": "ch007",
+  "name": "РЕН ТВ",
   "group": "Федеральные",
-  "url": "https://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R01_OTR_KLNG_FILIAL/variant.m3u8",
-  "logo": "https://iptvx.one/picons/otr.png",
-  "epg": "otr"
+  "url": "http://194.152.35.17/ren_tv/index.m3u8",
+  "logo": "https://iptvx.one/picons/rentv.png",
+  "epg": "rentv"
  },
  {
   "id": "ch005",
@@ -56,22 +88,6 @@
   "epg": "tvcentr"
  },
  {
-  "id": "ch007",
-  "name": "РЕН ТВ",
-  "group": "Федеральные",
-  "url": "http://194.152.35.17/ren_tv/index.m3u8",
-  "logo": "https://iptvx.one/picons/rentv.png",
-  "epg": "rentv"
- },
- {
-  "id": "ch008",
-  "name": "ТВ-3",
-  "group": "Федеральные",
-  "url": "http://194.152.35.17/tv-3/index.m3u8",
-  "logo": "https://iptvx.one/picons/tv3-ru.png",
-  "epg": "tv3-ru"
- },
- {
   "id": "ch009",
   "name": "Звезда",
   "group": "Федеральные",
@@ -80,28 +96,20 @@
   "epg": "zvezda"
  },
  {
-  "id": "ch010",
-  "name": "СТС",
-  "group": "Федеральные",
-  "url": "http://flussonic.mkpnet.ru/tv-9cb92ea0862cd7b0/video.m3u8",
-  "logo": "https://iptvx.one/picons/sts.png",
-  "epg": "sts"
- },
- {
-  "id": "ch011",
-  "name": "ТНТ",
-  "group": "Федеральные",
-  "url": "https://bl.rutube.ru/livestream/546602986e6a424d74d594876ddb3f04/index.m3u8?s=K-z3nz49R1oGQ-5yPSd8pg&e=2082157024&scheme=https",
-  "logo": "https://iptvx.one/picons/tnt.png",
-  "epg": "tnt"
- },
- {
   "id": "ch012",
   "name": "Домашний",
   "group": "Федеральные",
   "url": "https://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY/variant.m3u8",
   "logo": "https://iptvx.one/picons/domashny.png",
   "epg": "domashny"
+ },
+ {
+  "id": "ch008",
+  "name": "ТВ-3",
+  "group": "Федеральные",
+  "url": "http://194.152.35.17/tv-3/index.m3u8",
+  "logo": "https://iptvx.one/picons/tv3-ru.png",
+  "epg": "tv3-ru"
  },
  {
   "id": "ch013",
@@ -120,6 +128,30 @@
   "epg": "super"
  },
  {
+  "id": "ch125",
+  "name": "Че!",
+  "group": "Федеральные",
+  "url": "http://flussonic.linkintel.ru/che/index.m3u8",
+  "logo": "https://iptvx.one/picons/che.png",
+  "epg": "che"
+ },
+ {
+  "id": "ch126",
+  "name": "ТНТ4",
+  "group": "Федеральные",
+  "url": "http://flussonic.linkintel.ru/tnt4/index.m3u8",
+  "logo": "https://iptvx.one/picons/tnt4.png",
+  "epg": "tnt4"
+ },
+ {
+  "id": "ch127",
+  "name": "2x2",
+  "group": "Федеральные",
+  "url": "https://bl.rutube.ru/livestream/392b4686b770bae2da6bf5ac4574add5/index.m3u8?e=2068731801&s=tenr-yHXUv1wibfka78s2A&scheme=https",
+  "logo": "https://iptvx.one/picons/2na2.png",
+  "epg": "2na2"
+ },
+ {
   "id": "ch015",
   "name": "Ю",
   "group": "Федеральные",
@@ -134,38 +166,6 @@
   "url": "http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8",
   "logo": "https://i.imgur.com/AqWaJT8.png",
   "epg": "mir"
- },
- {
-  "id": "ch017",
-  "name": "Мир 24",
-  "group": "Федеральные",
-  "url": "http://hls-mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/tracks-v1a1/mono.m3u8",
-  "logo": "https://iptvx.one/picons/mir24.png",
-  "epg": "mir-24"
- },
- {
-  "id": "ch018",
-  "name": "Матч!",
-  "group": "Федеральные",
-  "url": "http://bl.video.matchtv.ru/media/playlist/free_d46d0cf1712c0542ec7fd4f0808f600a_hd/17_89756005/1080/e6bef86de8a133cd7b27deb040758a00/4796141934.m3u8",
-  "logo": "https://iptvx.one/picons/match-tv.png",
-  "epg": "match-tv"
- },
- {
-  "id": "ch019",
-  "name": "РБК",
-  "group": "Федеральные",
-  "url": "http://online.video.rbc.ru/online/rbctvhd_1080p/index.m3u8",
-  "logo": "https://iptvx.one/picons/rbk.png",
-  "epg": "rbk"
- },
- {
-  "id": "ch020",
-  "name": "Спас",
-  "group": "Федеральные",
-  "url": "https://bonusspas.mediacdn.ru/cdn/spas/playlist.m3u8",
-  "logo": "https://iptvx.one/picons/spas.png",
-  "epg": "spas"
  },
  {
   "id": "ch021",
@@ -982,5 +982,61 @@
   "url": "https://dwamdstream110.akamaized.net/hls/live/2017971/dwstream110/master.m3u8",
   "logo": "https://i.imgur.com/8MRNFb9.png",
   "epg": ""
+ },
+ {
+  "id": "ch017",
+  "name": "Мир 24",
+  "group": "Федеральные",
+  "url": "http://hls-mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/tracks-v1a1/mono.m3u8",
+  "logo": "https://iptvx.one/picons/mir24.png",
+  "epg": "mir-24"
+ },
+ {
+  "id": "ch004",
+  "name": "ОТР",
+  "group": "Федеральные",
+  "url": "https://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R01_OTR_KLNG_FILIAL/variant.m3u8",
+  "logo": "https://iptvx.one/picons/otr.png",
+  "epg": "otr"
+ },
+ {
+  "id": "ch003",
+  "name": "Россия К",
+  "group": "Федеральные",
+  "url": "https://flussonic.mkpnet.ru/tv-111deaa2142146ee/video.m3u8",
+  "logo": "https://iptvx.one/picons/kultura.png",
+  "epg": "kultura"
+ },
+ {
+  "id": "ch019",
+  "name": "РБК",
+  "group": "Федеральные",
+  "url": "http://online.video.rbc.ru/online/rbctvhd_1080p/index.m3u8",
+  "logo": "https://iptvx.one/picons/rbk.png",
+  "epg": "rbk"
+ },
+ {
+  "id": "ch020",
+  "name": "Спас",
+  "group": "Федеральные",
+  "url": "https://bonusspas.mediacdn.ru/cdn/spas/playlist.m3u8",
+  "logo": "https://iptvx.one/picons/spas.png",
+  "epg": "spas"
+ },
+ {
+  "id": "ch128",
+  "name": "Кинопремьера",
+  "group": "Фильмы",
+  "url": "http://5.188.159.128:8070/KINOPREMIERA/index.m3u8",
+  "logo": "",
+  "epg": "kinopremiera-hd"
+ },
+ {
+  "id": "ch129",
+  "name": "Перец International",
+  "group": "Фильмы",
+  "url": "http://stream.mcquack.net/121/index.m3u8",
+  "logo": "https://iptvx.one/picons/perec-int.png",
+  "epg": "perec-int"
  }
 ]
